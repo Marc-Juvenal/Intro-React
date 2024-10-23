@@ -12,7 +12,7 @@ const pokemonList = [
 
 const PokemonCard = () => {
     // Modification de la variable pokemon pour utiliser le deuxième Pokémon de pokemonList
-    const pokemon = pokemonList[0]; // Mew
+    const pokemon = pokemonList[1]; // Mew
 
     return (
         <div>
