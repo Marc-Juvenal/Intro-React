@@ -1,19 +1,6 @@
-const pokemonList = [
-    {
-        name: "bulbasur",
-        imgsrc:
-        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-    },
-    {
-        name: "mew"
-    },
-];
 
-
-const PokemonCard = () => {
-    // Modification de la variable pokemon pour utiliser le deuxième Pokémon de pokemonList
-    const pokemon = pokemonList[0]; // Mew
-
+const PokemonCard = ({ pokemon }) => { 
+   
     return (
         <div>
             <h1>{pokemon.name}</h1>
@@ -40,3 +27,4 @@ const PokemonCard = () => {
 }
 
 export default PokemonCard;
+
