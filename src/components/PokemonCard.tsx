@@ -1,4 +1,3 @@
-
 const PokemonCard = ({ pokemon }) => { 
    
     return (

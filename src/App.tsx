@@ -11,9 +11,12 @@ const pokemonList = [
   },
 ];
 
+const App = () => {
+  return (
+    <div>
+      <PokemonCard pokemon={pokemonList[0]} />
+    </div>
+  );
+};
 
-
-<div>
-  <PokemonCard pokemon={pokemonList[0]} />
-</div>
-
+export default App; 
