@@ -1,3 +1,9 @@
+ props.2
+interface Pokemon {
+    name: string; // propriété requise
+    imgsrc?: string; // propriété optionnelle
+}
+
 const pokemonList = [
     {
         name: "bulbasur",
@@ -13,7 +19,10 @@ const pokemonList = [
 const PokemonCard = () => {
     // Modification de la variable pokemon pour utiliser le deuxième Pokémon de pokemonList
     const pokemon = pokemonList[1]; // Mew
+ main
 
+const PokemonCard = ({ pokemon }: { pokemon: Pokemon }) => { 
+   
     return (
         <div>
             <h1>{pokemon.name}</h1>
