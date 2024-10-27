@@ -1,4 +1,9 @@
-const PokemonCard = ({ pokemon }) => { 
+interface Pokemon {
+    name: string; // propriété requise
+    imgsrc?: string; // propriété optionnelle
+}
+
+const PokemonCard = ({ pokemon }: { pokemon: Pokemon }) => { 
    
     return (
         <div>
@@ -26,4 +31,3 @@ const PokemonCard = ({ pokemon }) => {
 }
 
 export default PokemonCard;
-
